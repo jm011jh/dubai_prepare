@@ -11,7 +11,7 @@ body{font-size: 15px;}
 .main__readyContainer{position: absolute;width: 100%;max-width: 1440px;top: 0;left: 50%;transform: translate(-50%,0%);padding-bottom: 5em;}
 
 br.small{display: block;}
-
+br.desktop{display: none;}
 .readyContainer__notice{margin-top: 4em;width: 100%;display: block;justify-content: center;}
 .readyContainer__noticeSub{width:100%;padding:0 1.5em;margin-bottom: 5em;}
 .readyContainer__noticeSub.kr{font-family: 'Noto Sans KR',sans-serif;}
@@ -57,6 +57,7 @@ animation-fill-mode: forwards;
 }
 @media all and (min-width:960px){
     body{font-size: 14px;}
+    br.desktop{display: block;}
     br.small{display: none;}
     .readyContainer__h1{padding-top: 14.5em;}
     .readyContainer__h1 h1{font-size: 3em;}
